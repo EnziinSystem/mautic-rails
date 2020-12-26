@@ -1,6 +1,6 @@
 module Mautic
   class ConnectionsController < ApplicationController
-    before_action :authorize_me
+    #before_action :authorize_me
     include ::Mautic::ConnectionsControllerConcern
 
     private
